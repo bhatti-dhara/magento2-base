@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+
+        <add id="Mage2_Base::base"
+             title="Mage2"
+             module="Mage2_Base"
+             sortOrder="50"
+             resource="Mage2_Base::mage2"/>
+
+    </menu>
+</config>
